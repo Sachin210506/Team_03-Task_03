@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background: linear-gradient(to bottom left, #7DFBFF, #9531FF);
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; 
+}
+
+.main-footer {
+  background-color: white;
+  padding: 40px 60px;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  z-index: 1;
+}
+
+.COnta input {
+  border-radius: 6px;
+  height: 45px;
+  width:172%;
+  
+}
+.COnta {
+  display: flex;
+  gap: 16px; 
+  margin-top: 12px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.cota2{
+  margin-left: 113px;
+}
+
+.navbar {
+  display: flex; 
+  justify-content: space-between;
+  height: 167px;
+  align-items: center;
+  padding: 16px 60px;
+  background: white;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  gap: 40px;
+  padding: 60px 80px; 
+}
+.about {
+  flex: 1;
+  max-width: 600px;
+}
+.about {
+  width: 100%;
+  max-width: 624px;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.Message input{
+  width: 100%;
+  height: 130px;
+  vertical-align: top;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  resize: vertical;
+
+}
+.Email-det input{
+  padding:10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+}
+.navitem {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  width: 390px;
+  gap: 25px; 
+}
+.navlinks {
+  display: flex;
+  gap: 20px; 
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: #000;
+  height: 30px;
+  width: 49px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navlinks a:hover {
+  color: #555;
+}
+
+.navbutton {
+  background: #000;
+  width: 99px;
+  height: 52px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px 14px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.subhead{
+ color: #828282;
+}
+.sub-but{
+  background: #000;
+  width:100%;
+  border-radius: 6px;
+  height: 50px;
+  color:white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+}
+.nav-button:hover {
+  background: #333;
+}
+.image img{
+  margin-top: 100px;
+width: 559px;
+height: 559px;
+opacity: 1;
+border-radius: 62px;
+ object-fit: cover;
+}
+
+
+.about h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.about h3 {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 21px;
+  line-height: 1.5;
+  color: #111;
+}
+.footer-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+   padding: 30px 80px;
+}
+.footer-columns{
+  display: flex;
+ gap: 100px;
+}
+.footer-column{
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.footer-page{
+   text-decoration: none;
+  color:#555;
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: 200;
+  transition: color 0.2s ease;
+}
+.footer-topic{
+  color:#000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer-site-name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #111;
+}
